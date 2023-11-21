@@ -69,6 +69,45 @@ input:focus {
   font-size: 12px;
 }
 
+.box_tasks {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #e8e8e8;
+  border: 1px solid var(--color-purple);
+  border-radius: 5px;
+
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btns button {
+  border: none;
+  cursor: pointer;
+}
+
+.btn-done {
+  background-color: green;
+  color: var(--color-white);
+
+  border-radius: 4px;
+  
+  text-transform: uppercase;
+}
+
+.btn-x {
+  background-color: red;
+  color: var(--color-white);
+
+  border-radius: 4px;
+  
+  text-transform: uppercase;
+}
+
+
 
 /* Media queries */
 @media only screen and (max-width: 600px) {
@@ -88,6 +127,10 @@ input:focus {
   .sub_title {
     font-size: 15px;
     margin-bottom: 8px;
+  }
+
+  .box_list {
+    padding: 20px 0;
   }
 
 

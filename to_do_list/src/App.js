@@ -27,7 +27,9 @@ function App() {
             </div>
 
             <div className='box_list'>
+              <h1 className="sub_title">Tasks: </h1>
 
+              <BoxList />
               <BoxList />
 
             </div>

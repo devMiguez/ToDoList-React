@@ -1,0 +1,39 @@
+
+
+/* Media querie */
+@media only screen and (max-width: 600px) {
+    .box_tasks {
+        padding: 5px;
+
+        margin-bottom: 5px;
+    }
+
+    .name-task h1 {
+        font-size: 14px;
+    }
+
+    .name-task p {
+        font-size: 12px;
+    }
+
+    .btns {
+        gap: 10px;
+    }
+
+    .btns button {
+        font-size: 12px;
+    }
+
+    .btn-done {
+        padding: 4px 8px;
+    }
+
+    .btn-x {
+        padding: 4px 6px;
+    }
+
+
+
+    
+    
+}
