@@ -2,7 +2,7 @@
 
 /* Media querie */
 @media only screen and (max-width: 600px) {
-    .box_tasks {
+    .tasks_box {
         padding: 5px;
 
         margin-bottom: 5px;
@@ -18,10 +18,6 @@
 
     .btns {
         gap: 10px;
-    }
-
-    .btns button {
-        font-size: 12px;
     }
 
     .btn-done {

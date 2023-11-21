@@ -1,0 +1,27 @@
+.choose_category {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.choose_category select{
+    width: 100%;
+    max-width: 50%;
+}
+
+/* Media querie */
+@media only screen and (max-width: 600px) {
+    .create {
+        padding: 20px 0;
+    }
+
+    .btn {
+        margin-top: 20px ;
+        text-align: center;
+    }
+
+    .btn button {
+        padding: 8px 15px;
+    }
+}

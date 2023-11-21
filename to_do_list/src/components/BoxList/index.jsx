@@ -2,7 +2,7 @@ import './style.css'
 
 export default function BoxList(props) {
     return (
-        <div className="box_tasks">
+        <div className="tasks_box">
             <div className="name-task">
                 <h1>Nome tarefa</h1>
                 <p>(categoria)</p>

@@ -25,7 +25,6 @@ body {
 
   width: 100%;
   max-width: 50%;
-  height: 100vh;  /* TAKE IT OF AFTER */
 
   margin: 50px auto;
   border: 2px solid var(--color-purple);
@@ -60,7 +59,11 @@ input:focus {
   outline: none;
 }
 
-.filter_itens select {
+label {
+  color: #808080;
+}
+
+select {
   border: 1px solid var(--color-purple);
   border-radius: 5px;
 
@@ -69,43 +72,50 @@ input:focus {
   font-size: 12px;
 }
 
-.box_tasks {
+.tasks_box {
   display: flex;
   justify-content: space-between;
 
   background-color: #e8e8e8;
   border: 1px solid var(--color-purple);
   border-radius: 5px;
-
 }
+
+.box_list {
+  border-bottom: 1px solid #808080;
+}
+
 
 .btns {
   display: flex;
   align-items: center;
 }
 
-.btns button {
+button {
   border: none;
   cursor: pointer;
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  text-transform: uppercase;
+  border-radius: 4px;
+
+  transition: all .5s;
+}
+
+button:hover {
+  opacity: .8;
 }
 
 .btn-done {
   background-color: green;
-  color: var(--color-white);
-
-  border-radius: 4px;
   
-  text-transform: uppercase;
 }
 
 .btn-x {
   background-color: red;
-  color: var(--color-white);
-
-  border-radius: 4px;
   
-  text-transform: uppercase;
 }
+
 
 
 
@@ -129,8 +139,17 @@ input:focus {
     margin-bottom: 8px;
   }
 
+  label {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
   .box_list {
     padding: 20px 0;
+
   }
 
 
