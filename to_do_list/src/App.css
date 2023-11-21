@@ -44,7 +44,7 @@ body {
   color: var(--color-purple);
 }
 
-.search_item input {
+input {
   width: 100%;
   border: 1px solid var(--color-purple);
   border-radius: 5px;
@@ -52,12 +52,21 @@ body {
   padding-left: 2px;
 }
 
-.search_item input::placeholder {
+input::placeholder {
   font-size: 11px;
 }
 
-.search_item input:focus {
+input:focus {
   outline: none;
+}
+
+.filter_itens select {
+  border: 1px solid var(--color-purple);
+  border-radius: 5px;
+
+  padding-left: 2px;
+
+  font-size: 12px;
 }
 
 
@@ -77,7 +86,7 @@ body {
   }
 
   .sub_title {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 8px;
   }
 

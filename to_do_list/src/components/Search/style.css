@@ -3,11 +3,14 @@
     border-bottom: 1px solid #808080;
 }
 
+
 /* Media querie */
 @media only screen and (max-width: 600px) {
 
     .search_item {
         padding: 20px 0;
     }
+
+    
 
 }

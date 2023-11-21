@@ -1,0 +1,27 @@
+.content_filter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content_filter select{
+    width: 100%;
+    max-width: 50%;
+}
+
+.content_filter label {
+    color: #808080;
+}
+
+
+/* Media querie */
+@media only screen and (max-width: 600px) {
+    .filter_itens {
+        padding: 20px 0;
+        border-bottom: 1px solid #808080;
+    }
+
+    .content_filter label {
+        font-size: 13px;
+    }
+}
