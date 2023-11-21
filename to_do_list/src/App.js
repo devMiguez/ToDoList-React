@@ -1,4 +1,7 @@
 import './App.css';
+import Search from './components/Search'
+import Filter from './components/Filter'
+import BoxList from './components/BoxList'
 import CreateTask from './components/CreateTask'
 
 function App() {
@@ -13,13 +16,19 @@ function App() {
 
             <div className='search'>
 
+              <Search />
+
             </div>
 
             <div className='filter'>
 
+              <Filter />
+
             </div>
 
             <div className='box_list'>
+
+              <BoxList />
 
             </div>
 

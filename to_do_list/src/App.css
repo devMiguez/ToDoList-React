@@ -44,6 +44,22 @@ body {
   color: var(--color-purple);
 }
 
+.search_item input {
+  width: 100%;
+  border: 1px solid var(--color-purple);
+  border-radius: 5px;
+
+  padding-left: 2px;
+}
+
+.search_item input::placeholder {
+  font-size: 11px;
+}
+
+.search_item input:focus {
+  outline: none;
+}
+
 
 /* Media queries */
 @media only screen and (max-width: 600px) {
@@ -58,6 +74,11 @@ body {
 
   .content_main {
     padding: 20px;
+  }
+
+  .sub_title {
+    font-size: 14px;
+    margin-bottom: 8px;
   }
 
 
